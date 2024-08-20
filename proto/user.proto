@@ -23,10 +23,9 @@ message User {
 // CreateUser
 message CreateUserRequest {
   string username = 1;
-  string email = 2;
-  string password = 3;
-  string full_name = 4;
-  int32 roleId = 5;
+  string password = 2;
+  string full_name = 3;
+  int32 roleId = 4;
 }
 
 message CreateUserResponse {
