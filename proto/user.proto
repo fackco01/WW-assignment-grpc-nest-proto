@@ -38,6 +38,8 @@ message CreateUserResponse {
 // UpdateUser
 message UpdateUserRequest {
   int32 id = 1;
+  string full_name = 2;
+  int32 role_id = 3;
 }
 
 message UpdateUserResponse {
